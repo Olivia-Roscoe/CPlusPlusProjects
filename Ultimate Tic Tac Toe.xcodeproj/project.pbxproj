@@ -7,24 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1919365F1F8810DD00463133 /* ComputerPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1919365D1F8810DD00463133 /* ComputerPlayer.cpp */; };
+		19461AB01F893B0F000EB9B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19461AAF1F893B0F000EB9B6 /* Images.xcassets */; };
 		195E57581F82B8A1002CB402 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 195E57571F82B8A1002CB402 /* ResourcePath.mm */; };
 		195E575B1F82B8A1002CB402 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 195E575A1F82B8A1002CB402 /* main.cpp */; };
-		195E575E1F82B8A1002CB402 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 195E575D1F82B8A1002CB402 /* cute_image.jpg */; };
-		195E57601F82B8A1002CB402 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 195E575F1F82B8A1002CB402 /* nice_music.ogg */; };
 		195E57621F82B8A1002CB402 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 195E57611F82B8A1002CB402 /* sansation.ttf */; };
 		195E57641F82B8A1002CB402 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 195E57631F82B8A1002CB402 /* icon.png */; };
+		195E576E1F82C970002CB402 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 195E576C1F82C970002CB402 /* Game.cpp */; };
+		195E57951F834556002CB402 /* Playtime.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 195E57941F834556002CB402 /* Playtime.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1919365D1F8810DD00463133 /* ComputerPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ComputerPlayer.cpp; sourceTree = "<group>"; };
+		1919365E1F8810DD00463133 /* ComputerPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ComputerPlayer.hpp; sourceTree = "<group>"; };
+		19461AAF1F893B0F000EB9B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19461AB21F893C11000EB9B6 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../../../../Library/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		19461AB31F893C11000EB9B6 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../../../Library/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		19461AB41F893C11000EB9B6 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../../../Library/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		19461AB51F893C11000EB9B6 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../../Library/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		19461AB61F893C11000EB9B6 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../../../Library/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
+		19461AB71F893C11000EB9B6 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
 		195E57521F82B8A1002CB402 /* Ultimate Tic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ultimate Tic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		195E57561F82B8A1002CB402 /* Ultimate Tic Tac Toe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ultimate Tic Tac Toe-Info.plist"; sourceTree = "<group>"; };
 		195E57571F82B8A1002CB402 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		195E57591F82B8A1002CB402 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		195E575A1F82B8A1002CB402 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		195E575D1F82B8A1002CB402 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		195E575F1F82B8A1002CB402 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		195E57611F82B8A1002CB402 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		195E57631F82B8A1002CB402 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		195E576C1F82C970002CB402 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		195E576D1F82C970002CB402 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		195E57941F834556002CB402 /* Playtime.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Playtime.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,11 +50,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19461AB11F893C11000EB9B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19461AB21F893C11000EB9B6 /* sfml-audio.framework */,
+				19461AB31F893C11000EB9B6 /* sfml-graphics.framework */,
+				19461AB41F893C11000EB9B6 /* sfml-network.framework */,
+				19461AB51F893C11000EB9B6 /* sfml-system.framework */,
+				19461AB61F893C11000EB9B6 /* sfml-window.framework */,
+				19461AB71F893C11000EB9B6 /* SFML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		195E57481F82B8A1002CB402 = {
 			isa = PBXGroup;
 			children = (
 				195E57541F82B8A1002CB402 /* Ultimate Tic Tac Toe */,
 				195E57531F82B8A1002CB402 /* Products */,
+				19461AB11F893C11000EB9B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +88,11 @@
 				195E575A1F82B8A1002CB402 /* main.cpp */,
 				195E575C1F82B8A1002CB402 /* Resources */,
 				195E57551F82B8A1002CB402 /* Supporting Files */,
+				195E576C1F82C970002CB402 /* Game.cpp */,
+				195E576D1F82C970002CB402 /* Game.hpp */,
+				1919365D1F8810DD00463133 /* ComputerPlayer.cpp */,
+				1919365E1F8810DD00463133 /* ComputerPlayer.hpp */,
+				19461AAF1F893B0F000EB9B6 /* Images.xcassets */,
 			);
 			path = "Ultimate Tic Tac Toe";
 			sourceTree = "<group>";
@@ -77,8 +108,7 @@
 		195E575C1F82B8A1002CB402 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				195E575D1F82B8A1002CB402 /* cute_image.jpg */,
-				195E575F1F82B8A1002CB402 /* nice_music.ogg */,
+				195E57941F834556002CB402 /* Playtime.ttf */,
 				195E57611F82B8A1002CB402 /* sansation.ttf */,
 				195E57631F82B8A1002CB402 /* icon.png */,
 			);
@@ -144,9 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				195E57641F82B8A1002CB402 /* icon.png in Resources */,
+				19461AB01F893B0F000EB9B6 /* Images.xcassets in Resources */,
+				195E57951F834556002CB402 /* Playtime.ttf in Resources */,
 				195E57621F82B8A1002CB402 /* sansation.ttf in Resources */,
-				195E57601F82B8A1002CB402 /* nice_music.ogg in Resources */,
-				195E575E1F82B8A1002CB402 /* cute_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195E576E1F82C970002CB402 /* Game.cpp in Sources */,
 				195E575B1F82B8A1002CB402 /* main.cpp in Sources */,
 				195E57581F82B8A1002CB402 /* ResourcePath.mm in Sources */,
+				1919365F1F8810DD00463133 /* ComputerPlayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +304,11 @@
 		195E57681F82B8A1002CB402 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "Ultimate Tic Tac Toe/Ultimate Tic Tac Toe-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,6 +318,11 @@
 		195E57691F82B8A1002CB402 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "Ultimate Tic Tac Toe/Ultimate Tic Tac Toe-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +348,7 @@
 				195E57691F82B8A1002CB402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
